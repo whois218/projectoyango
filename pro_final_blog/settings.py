@@ -123,7 +123,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'blog/static'),  # Asegúrate de que esta ruta esté correctamente configurada
+    os.path.join(BASE_DIR, 'blog/static/blog/style.css'),  # Asegúrate de que esta ruta esté correctamente configurada
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Donde se copiarán los archivos estáticos después de collectstatic
